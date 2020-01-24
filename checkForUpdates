@@ -1,0 +1,2 @@
+#This file's content should be copied into the crontab on the server.
+0 1 * * * /bin/sh -c 'cd /data/server-monitor/ && /usr/bin/git pull -q origin master'
